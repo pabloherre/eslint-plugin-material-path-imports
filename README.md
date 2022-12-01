@@ -44,10 +44,10 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-material-path-imports`:
+Next, install `eslint-plugin-material-ui-path-imports`:
 
 ```sh
-npm install eslint-plugin-material-path-imports --save-dev
+npm install eslint-plugin-material-ui-path-imports --save-dev
 ```
 
 ## Usage

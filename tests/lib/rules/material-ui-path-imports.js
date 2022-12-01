@@ -27,9 +27,6 @@ ruleTester.run("rule", rule, {
       code: `import Add from "@material-ui/icons/Add";`
     },
     {
-      code: `import TreeView from "@material-ui/labTreeView";`
-    },
-    {
       code: `import { Theme } from "@material-ui/core";`
     },
     {
@@ -58,11 +55,6 @@ ruleTester.run("rule", rule, {
       output: `import Box from "@material-ui/core/Box";`
     },
     {
-      code: `import { TreeView } from "@material-ui/lab";`,
-      errors: [{ message: "error: !mui-toplevel-import", type: "" }],
-      output: `import TreeView from "@material-ui/labTreeView";`
-    },
-    {
       code: `import { Add, Link } from "@material-ui/icons";`,
       errors: [{ message: "error: !mui-toplevel-import", type: "" }],
       output: `import Add from "@material-ui/icons/Add";
@@ -79,12 +71,6 @@ import Card from "@material-ui/core/Card";`
       errors: [{ message: "error: !mui-toplevel-import", type: "" }],
       output: `import Box from "@material-ui/core/Box";
 import { Theme } from "@material-ui/core";`,
-    },
-    {
-      code: `import { TreeView, TreeItem } from "@material-ui/lab";`,
-      errors: [{ message: "error: !mui-toplevel-import", type: "" }],
-      output: `import TreeView from "@material-ui/labTreeView";
-import TreeItem from "@material-ui/labTreeItem";`,
     },
     {
       code: `import { Box, Theme, SvgIconTypeMap } from "@material-ui/core";`,
