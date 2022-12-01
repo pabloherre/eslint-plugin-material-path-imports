@@ -1,0 +1,73 @@
+{
+  "_from": "eslint-plugin-mui-path-imports",
+  "_id": "eslint-plugin-mui-path-imports@0.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-Mgsyqttl8B31rrVSVpRXg4fiQbVWeK3D0XLjN8s5JATRCwaBN3c7D/oTxqPPKechQMuq0kP2+VojvQ/XR9eLHw==",
+  "_location": "/eslint-plugin-mui-path-imports",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "eslint-plugin-mui-path-imports",
+    "name": "eslint-plugin-mui-path-imports",
+    "escapedName": "eslint-plugin-mui-path-imports",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/eslint-plugin-mui-path-imports/-/eslint-plugin-mui-path-imports-0.0.7.tgz",
+  "_shasum": "c8acc674a2818159fbc0b501677f25b446d8a05c",
+  "_spec": "eslint-plugin-mui-path-imports",
+  "_where": "C:\\AG2\\KLI\\JT\\JT-FE",
+  "author": {
+    "name": "kajirikajiri"
+  },
+  "bugs": {
+    "url": "https://github.com/kajirikajiri/eslint-plugin-mui-path-imports/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "deprecated": false,
+  "description": "Use path import to avoid pulling in unused modules.",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.0.1",
+    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^9.1.3",
+    "typescript": "^4.9.3"
+  },
+  "engines": {
+    "node": "12.x || 14.x || >= 16"
+  },
+  "homepage": "https://github.com/kajirikajiri/eslint-plugin-mui-path-imports#readme",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "mui",
+    "material-ui",
+    "path-import"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "eslint-plugin-mui-path-imports",
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajirikajiri/eslint-plugin-mui-path-imports.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive"
+  },
+  "version": "0.0.7"
+}
