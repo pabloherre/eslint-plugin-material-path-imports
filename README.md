@@ -1,6 +1,8 @@
+All credits go to https://github.com/kajirikajiri/eslint-plugin-mui-path-imports
+
 <img width="100" src="https://user-images.githubusercontent.com/37785038/173216745-5e784fdf-d233-4323-bdf8-483807d40096.svg"/>
 
-# Mui path imports
+# Material-UI path imports
 
 [![CI:UT](https://github.com/kajirikajiri/eslint-plugin-mui-path-imports/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/kajirikajiri/eslint-plugin-mui-path-imports/actions/workflows/npm-publish.yml)
 
@@ -38,10 +40,10 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-mui-path-imports`:
+Next, install `eslint-plugin-material-path-imports`:
 
 ```sh
-npm install eslint-plugin-mui-path-imports --save-dev
+npm install eslint-plugin-material-path-imports --save-dev
 ```
 
 ## Usage
@@ -51,10 +53,10 @@ Add `plugin` and `rules` to the plugins section of your `.eslintrc` configuratio
 ```json
 {
     "plugins": [
-        "mui-path-imports"
+        "material-ui-path-imports"
     ],
     "rules": {
-        "mui-path-imports/mui-path-imports": "error"
+        "material-ui-path-imports/material-ui-path-imports": "error"
     }
 }
 ```
@@ -62,7 +64,7 @@ Add `plugin` and `rules` to the plugins section of your `.eslintrc` configuratio
 And eslint --fix
 
 ```javascript
-import { Box } from '@mui/material';
+import { Box } from '@material-ui/core';
 ↓
-import Box from "@mui/material/Box";
+import Box from "@material-ui/core/Box";
 ```
