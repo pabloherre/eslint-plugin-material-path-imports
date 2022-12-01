@@ -1,6 +1,10 @@
-All credits go to https://github.com/kajirikajiri/eslint-plugin-mui-path-imports
+**All credits go to https://github.com/kajirikajiri/eslint-plugin-mui-path-imports**
 
-<img width="100" src="https://user-images.githubusercontent.com/37785038/173216745-5e784fdf-d233-4323-bdf8-483807d40096.svg"/>
+`import { Box } from '@material-ui/core';`
+
+`to`
+
+`import Box from '@material-ui/core/Box';`
 
 # Material-UI path imports
 
